@@ -1,0 +1,739 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: gainsboro;
+    top: 0;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.colors {
+    height: 590px;
+    position: relative;
+    overflow:hidden;
+}
+
+/* Decoración */
+.color-1 {
+    position: absolute;
+    rotate: -55deg;
+    right: 690px;
+    background-color: rgb(17, 17, 49);
+    width: 2016px;
+    height: 800px;
+    z-index: 3;
+}
+
+.color-2 {
+    position: absolute;
+    rotate: -40deg;
+    top: 440px;
+    right: 1030px;
+    background-color: rgb(205, 25, 58);
+    width: 400px;
+    height: 400px;
+    z-index: 2;
+}
+
+.color-3 {
+    position: absolute;
+    top: 120px;
+    right: 1100px;
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 400px;
+    z-index: 1;
+}
+
+.color-1,
+.color-2,
+.color-3 {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    transition: box-shadow 0.3s ease;
+}
+
+.color-1:hover,
+.color-2:hover,
+.color-3:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+}
+
+.Logo img {
+    top: 20px;
+    left: 80px;
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    z-index: 4;
+}
+
+.araund {
+    position: absolute;
+    top: 276px;
+    left: 270px;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 600px;
+    z-index: 2;
+    
+}
+
+.table-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.table {
+    width: 140px;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #fff;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Efectos de las motos */
+
+/* Moto 1 */
+.table-11 {
+    position: relative;
+    transition: calc(0.4s);
+}
+
+.table-11 img {
+    top: 10px;
+    left: 10px;
+    width: 80px;
+    height: 50px;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.2s ease-in-out;
+}
+
+.text {
+    font-family: 'sans-serif';
+    color: #000000;
+    z-index: 4;
+}
+
+.frase-1 {
+    position: absolute;
+    left: 94px;
+    bottom: 40px;
+    width: 50px;
+    height: 10px;
+}
+
+.frase-1-1 {
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+}
+
+.table-11 p {
+    color: #000000;
+    font-size: 5px;
+}
+
+.table-11:hover {
+    transform: scale(0.96);
+    border-color: rgba(17, 17, 49, 0.6);
+}
+
+.table-11:active {
+    transform: translate(132%, -203%) scale(2.49);
+    background-color: #fff;
+    font-size: 10px;
+    color: black;
+}
+
+/* Moto 2 */
+.table-12 {
+    position: relative;
+    transition: calc(0.4s);
+}
+
+.table-12 img {
+    top: 10px;
+    left: 10px;
+    width: 80px;
+    height: 50px;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.2s ease-in-out;
+}
+
+.text {
+    font-family: 'sans-serif';
+    color: #000000;
+    z-index: 4;
+}
+
+.frase-2 {
+    position: absolute;
+    left: 94px;
+    bottom: 40px;
+    width: 50px;
+    height: 10px;
+}
+
+.frase-2-2 {
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+}
+
+.table-12 p {
+    color: #000000;
+    font-size: 5px;
+}
+
+.table-12:hover {
+    transform: scale(0.96);
+    border-color: rgba(17, 17, 49, 0.6);
+}
+
+.table-12:active {
+    transform: translate(19%, -203%) scale(2.49);
+    background-color: #fff;
+    font-size: 10px;
+    color: black;
+}
+
+/* Moto 3 */
+.table-13 {
+    position: relative;
+    transition: calc(0.4s);
+}
+
+.table-13 img {
+    top: 10px;
+    left: 10px;
+    width: 80px;
+    height: 50px;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.2s ease-in-out;
+}
+
+.text {
+    font-family: 'sans-serif';
+    color: #000000;
+    z-index: 4;
+}
+
+.frase-3 {
+    position: absolute;
+    left: 94px;
+    bottom: 40px;
+    width: 50px;
+    height: 10px;
+}
+
+.frase-3-3 {
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+}
+
+.table-13 p {
+    color: #000000;
+    font-size: 5px;
+}
+
+.table-13:hover {
+    transform: scale(0.96);
+    border-color: rgba(17, 17, 49, 0.6);
+}
+
+.table-13:active {
+    transform: translate(-96%, -203%) scale(2.49);
+    background-color: #fff;
+    font-size: 10px;
+    color: black;
+}
+
+/* Moto 4 */
+.table-14 {
+    position: relative;
+    transition: calc(0.4s);
+}
+
+.table-14 img {
+    top: 10px;
+    left: 10px;
+    width: 80px;
+    height: 50px;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.2s ease-in-out;
+}
+
+.text {
+    font-family: 'sans-serif';
+    color: #000000;
+    z-index: 4;
+}
+
+.frase-4 {
+    position: absolute;
+    left: 94px;
+    bottom: 40px;
+    width: 50px;
+    height: 10px;
+}
+
+.frase-4-4 {
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+}
+
+.table-14 p {
+    color: #000000;
+    font-size: 5px;
+}
+
+.table-14:hover {
+    transform: scale(0.96);
+    border-color: rgba(17, 17, 49, 0.6);
+}
+
+.table-14:active {
+    transform: translate(132%, -327%) scale(2.49);
+    background-color: #fff;
+    font-size: 10px;
+    color: black;
+}
+
+/* Moto 5 */
+.table-15 {
+    position: relative;
+    transition: calc(0.4s);
+}
+
+.table-15 img {
+    top: 10px;
+    left: 10px;
+    width: 80px;
+    height: 50px;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.2s ease-in-out;
+}
+
+.text {
+    font-family: 'sans-serif';
+    color: #000000;
+    z-index: 4;
+}
+
+.frase-5 {
+    position: absolute;
+    left: 94px;
+    bottom: 40px;
+    width: 50px;
+    height: 10px;
+}
+
+.frase-5-5 {
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+}
+
+.table-15 p {
+    color: #000000;
+    font-size: 5px;
+}
+
+.table-15:hover {
+    transform: scale(0.96);
+    border-color: rgba(17, 17, 49, 0.6);
+}
+
+.table-15:active {
+    transform: translate(18%, -327%) scale(2.49);
+    background-color: #fff;
+    font-size: 10px;
+    color: black;
+}
+
+/* Moto 6 */
+.table-16 {
+    position: relative;
+    transition: calc(0.4s);
+}
+
+.table-16 img {
+    top: 10px;
+    left: 10px;
+    width: 80px;
+    height: 50px;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.2s ease-in-out;
+}
+
+.text {
+    font-family: 'sans-serif';
+    color: #000000;
+    z-index: 4;
+}
+
+.frase-6 {
+    position: absolute;
+    left: 94px;
+    bottom: 40px;
+    width: 50px;
+    height: 10px;
+}
+
+.frase-6-6 {
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+}
+
+.table-16 p {
+    color: #000000;
+    font-size: 5px;
+}
+
+.table-16:hover {
+    transform: scale(0.96);
+    border-color: rgba(17, 17, 49, 0.6);
+}
+
+.table-16:active {
+    transform: translate(-96%, -328%) scale(2.49);
+    background-color: #fff;
+    font-size: 10px;
+    color: black;
+}
+
+/* Moto 7 */
+.table-17 {
+    position: relative;
+    transition: calc(0.4s);
+}
+
+.table-17 img {
+    top: 10px;
+    left: 10px;
+    width: 80px;
+    height: 50px;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.2s ease-in-out;
+}
+
+.text {
+    font-family: 'sans-serif';
+    color: #000000;
+    z-index: 4;
+}
+
+.frase-7 {
+    position: absolute;
+    left: 94px;
+    bottom: 40px;
+    width: 50px;
+    height: 10px;
+}
+
+.frase-7-7 {
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+}
+
+.table-17 p {
+    color: #000000;
+    font-size: 5px;
+}
+
+.table-17:hover {
+    transform: scale(0.96);
+    border-color: rgba(17, 17, 49, 0.6);
+}
+
+.table-17:active {
+    transform: translate(132%, -451%) scale(2.49);
+    background-color: #fff;
+    font-size: 10px;
+    color: black;
+}
+
+/* Moto 8 */
+.table-18 {
+    position: relative;
+    transition: calc(0.4s);
+}
+
+.table-18 img {
+    top: 10px;
+    left: 10px;
+    width: 80px;
+    height: 50px;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.2s ease-in-out;
+}
+
+.text {
+    font-family: 'sans-serif';
+    color: #000000;
+    z-index: 4;
+}
+
+.frase-8 {
+    position: absolute;
+    left: 94px;
+    bottom: 40px;
+    width: 50px;
+    height: 10px;
+}
+
+.frase-8-8 {
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+}
+
+.table-18 p {
+    color: #000000;
+    font-size: 5px;
+}
+
+.table-18:hover {
+    transform: scale(0.96);
+    border-color: rgba(17, 17, 49, 0.6);
+}
+
+.table-18:active {
+    transform: translate(18%, -451%) scale(2.49);
+    background-color: #fff;
+    font-size: 10px;
+    color: black;
+}
+
+/* Moto 9 */
+.table-19 {
+    position: relative;
+    transition: calc(0.4s);
+}
+
+.table-19 img {
+    top: 10px;
+    left: 10px;
+    width: 80px;
+    height: 50px;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.2s ease-in-out;
+}
+
+.text {
+    font-family: 'sans-serif';
+    color: #000000;
+    z-index: 4;
+}
+
+.frase-9 {
+    position: absolute;
+    left: 94px;
+    bottom: 40px;
+    width: 50px;
+    height: 10px;
+}
+
+.frase-9-9 {
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+}
+
+.table-19 p {
+    color: #000000;
+    font-size: 5px;
+}
+
+.table-19:hover {
+    transform: scale(0.96);
+    border-color: rgba(17, 17, 49, 0.6);
+}
+
+.table-19:active {
+    transform: translate(-96%, -453%) scale(2.49);
+    background-color: #fff;
+    font-size: 10px;
+    color: black;
+}
+
+/* Color pasivo de las tarjetas */
+.table::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0));
+}
+
+/* Trajetas de fondo */
+.araund-2 {
+    position: absolute;
+    top: 276px;
+    left: 270px;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 600px;
+    z-index: 1;
+}
+
+.table-container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.table-2 {
+    width: 140px;
+    height: 80px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.2s ease-in-out;
+}
+
+.Moto {
+    position: absolute;
+    top: 50px;
+    left: 420px;
+    width: 350px;
+    height: 200px;
+    border: 1px dotted #fff;
+    border-radius: 4px;
+    z-index: 1;
+}
+
+.Moto img {
+    position: absolute;
+    top: 50px;
+    left: 130px;
+    width: 80px;
+    height: 80px;
+    opacity: 0.2;
+    z-index: 2;
+}
+
+/* Formulario */
+
+.position-form {
+    top: 50px;
+    left: 870px;
+    position: absolute;
+    display: block;
+    text-align: center
+}
+
+.profile img {
+    width: 70px;
+    height: 70px;
+}
+
+.form {
+    --input-focus: #2d8cf0;
+    --font-color: #323232;
+    --font-color-sub: #666;
+    --bg-color: #fff;
+    --main-color: #323232;
+    padding: 24px 50px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    border-radius: 5px;
+    border: 2px solid var(--main-color);
+    box-shadow: 4px 4px var(--main-color);
+  }
+  
+  .title {
+    color: var(--font-color);
+    font-weight: 900;
+    font-size: 20px;
+  }
+  
+  .title span {
+    color: var(--font-color-sub);
+    font-weight: 600;
+    font-size: 17px;
+  }
+  
+  .input {
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid var(--main-color);
+    background-color: var(--bg-color);
+    box-shadow: 4px 4px var(--main-color);
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--font-color);
+    padding: 5px 10px;
+    outline: none;
+  }
+  
+  .input::placeholder {
+    color: var(--font-color-sub);
+    opacity: 0.8;
+  }
+  
+  .input:focus {
+    border: 2px solid var(--input-focus);
+  }
+  
+  .button-confirm {
+    margin: 50px auto 0 auto;
+    width: 170px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid var(--main-color);
+    background-color: var(--bg-color);
+    box-shadow: 4px 4px var(--main-color);
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--font-color);
+    cursor: pointer;
+    transition: calc(0.4s);
+  }
+
+  .button-confirm:hover {
+    color: white;
+    background-color: var(--font-color);
+    box-shadow: 4px 4px var(--bg-color);
+  }

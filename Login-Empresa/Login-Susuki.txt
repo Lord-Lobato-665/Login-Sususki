@@ -1,0 +1,9 @@
+Paleta de colores
+-Blanco
+- Azul Marino
+-Rosa Mexicano
+
+Logo de reprenstación
+
+Relleno con cards tranparentes  on el efecto de crecimiento apartir de la propiedad active
+
